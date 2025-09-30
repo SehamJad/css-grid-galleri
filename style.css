@@ -16,3 +16,24 @@ body{
     border-radius: 6px;
     max-width: 720px;
 }
+/* En enskild ruta */
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 4px;
+    color: #fff;   /* vit text för bättre kontrast*/
+
+}
+/* olika färger - styrs av extra klasser i HTML*/
+.c1 {
+    background: #f47f61; /*korall*/
+
+}
+.c2{
+    background: #12b39a; /*grön/trkos*/
+}
+.c3{
+    background: #f15b64;/*rosa färg*/
+}
